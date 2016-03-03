@@ -23,23 +23,23 @@ ignoreCase.equals('FOO', 'Foo'); // => true
 
 ## API
 
-#### `equals(string1, string2)`
+##### equals(string1, string2)
 
 Returns `true` if the specified strings are equal, ignoring case; otherwise, `false`.
 
-#### `includes(string, searchString[, position])`
+##### includes(string, searchString[, position])
 
 Returns `true` if `string` contains `searchString`, ignoring case; otherwise, `false`.
 
-#### `startsWith(string, searchString[, position])`
+##### startsWith(string, searchString[, position])
 
 Returns `true` if `string` starts with `searchString`, ignoring case; otherwise, `false`.
 
-#### `endsWith(string, searchString[, position])`
+##### endsWith(string, searchString[, position])
 
 Returns `true` if `string` ends with `searchString`, ignoring case; otherwise, `false`.
 
-#### `indexOf(string, searchString[, position])`
+##### indexOf(string, searchString[, position])
 
 Returns the index of the first occurrence of `searchString` in `string`, ignoring case, or `-1` if `searchString` is not found.
 
